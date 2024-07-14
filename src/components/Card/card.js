@@ -3,13 +3,13 @@ import Image from "next/image";
 export const Card = () => {
   return (
     <div>
-      <div className="bg-white">
+      <div className="bg-gray-100">
         <section
           id="features"
           className="relative block px-6 py-10 md:py-20 md:px-10 "
         >
           <div className="relative mx-auto max-w-5xl text-center">
-            <h2 className="block w-full text-[#333333]   font-bold text-transparent text-3xl sm:text-4xl">
+            <h2 className="block w-full text-[#333333] font-bold  text-3xl sm:text-4xl">
               دورات عالية الجودة، مدربين محترفين، وشهادات مهنية{" "}
             </h2>
             <p className="mx-auto my-4 w-full max-w-3xl bg-transparent text-center text-lg font-medium leading-relaxed tracking-wide text-[#0A0A0B]">
@@ -21,7 +21,7 @@ export const Card = () => {
           </div>
 
           <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
-            <div className=" border rounded-lg bg-white  p-8 text-center shadow-secondary-1">
+            <div className="shadow-sm   bg-white  p-8 text-center rounded-xl">
               <div className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border">
                 <Image
                   width={100}
@@ -40,7 +40,7 @@ export const Card = () => {
               </p>
             </div>
 
-            <div className=" border rounded-lg bg-white  p-8 text-center shadow-secondary-1">
+            <div className="shadow-sm   bg-white  p-8 text-center rounded-xl">
               <div className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border">
                 <Image
                   width={100}
@@ -58,7 +58,7 @@ export const Card = () => {
               </p>
             </div>
 
-            <div className=" border rounded-lg bg-white  p-8 text-center shadow-secondary-1">
+            <div className="shadow-sm   bg-white  p-8 text-center rounded-xl">
               <div className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border">
                 <Image
                   width={100}
@@ -68,8 +68,8 @@ export const Card = () => {
                 />
               </div>
               <h3 className="mt-6 text-[#0A0A0B] text-xl">
-
-              احصل على شهادة معتمدة              </h3>
+                احصل على شهادة معتمدة{" "}
+              </h3>
               <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-[#4D4D4D] text-md">
                 بعد إنتهاء تأهيل الرواد الشباب، تحصل على الشهادات المهنية
                 المعتمدة مجانا، لمساعدتك في الحصول على أول وظيفة شاغرة.
