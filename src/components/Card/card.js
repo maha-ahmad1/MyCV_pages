@@ -21,7 +21,7 @@ export const Card = () => {
           </div>
 
           <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="shadow-sm   bg-white  p-10 text-center rounded-xl">
+            <div className="shadow-sm   bg-white p-10 text-center rounded-xl">
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-md ">
                 <Image
                   width={100}
